@@ -1,0 +1,67 @@
+.layer {
+    background-image: url(img/layer_10_24.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+.text {
+    color: white;
+    font-size: 60px;
+}
+.post {
+    color:#ffffff;
+    font-size: 40px;
+}
+.mini-post {
+    color: white;
+    font-size: 20px;
+}
+.article {
+    text-align: center;
+    margin-top: 100px;
+}
+.my-container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    max-width: 100%;
+}
+button {
+    margin-right: 50px;
+}
+.layer-2 {
+    background-image: url(img/shape_325_107.png);
+    background-size: cover; /* Ensure the background image covers the entire area */
+    background-position: center; /* Center the background image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center items horizontally in the container */
+    height: 90vh;
+    padding: 20px; /* Add padding to ensure content does not touch the edges */
+    box-sizing: border-box; /* Include padding in height calculations */
+    text-align: center; /* Center the text for better appearance on small screens */
+}
+
+.block {
+    max-width: 100%; /* Ensure block uses full width of container */
+}
+
+.dark {
+    color: black;
+}
+.layer {
+    margin-bottom: 250px; /* Расстояние между .layer и .layer-2 */
+}
+
+.layer-2 {
+    margin-bottom: 30px; /* Расстояние между .layer-2 и .container */
+}
+
+.container {
+    margin-bottom: 30px; /* Расстояние после последнего контейнера, если нужно */
+}
+.my-footer {
+    height: 30vh;
+}
